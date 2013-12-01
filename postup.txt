@@ -1,0 +1,22 @@
+Vytvoreni nove hry pod Unity krok po kroku:
+-------------------------------------------
+Start
+* Jako help si vemu tutorialy http://pixelnest.io/tutorials/2d-game-unity/ a http://www.youtube.com/watch?v=4qE8cuHI93c
+* Zalozim si novy projekt s volbou 2d (1)
+* Vytvorim si strukturu adresaru v Assetech:
+  Animations, Fonts, Prefabs, Scripts, Scenes, Sounds, Sprites
+
+Vrstvy pouzite ve hre
+Vytvorim si v hierarchii a sorting layers 3 vrstvy:
+Level:
+* 0 - Background (0) - ciste pozadi ktere nema zadou interakci
+* 1 - Middleground (-2) - podlahy, zdi
+* 2 - Foreground (-5) - player, enemy, create
+* 3 - preBackground (-8) - pozadi co je pred playerem, trava, listi stromu ...
+Render
+    kam dam Main kameru, ktera je na z souradnici (-10)
+
+Cele to ulozim jako scenu Stage01
+
+vezmu nejake pozadi a ulozim ho do Sprites/Backgrounds
+ 
